@@ -1,7 +1,7 @@
 'use strict';
 function max(numbers) {
   // your code here
-  let maxNumber = 0;
+  let maxNumber = numbers[0];
   let i = 0;
   while (i < numbers.length){
     if (numbers[i] > maxNumber){
@@ -14,7 +14,7 @@ function max(numbers) {
 
 function min(numbers) {
   // your code here
-  let minNumber = 0;
+  let minNumber = numbers[0];
   let i = 0;
   while (i < numbers.length){
     if (numbers[i] < minNumber){
